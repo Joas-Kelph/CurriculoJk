@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<Html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Cadastro de Estudante</title>
+    </head>
+
+    <body>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>Informações Gerais</legend>
+                       <div>
+                           <label for="Nome">Nome:</label>
+                           <input id="Nome"  type="text">
+                       </div>
+
+                       <div>
+                        <label for="matrícula">Matrícula:</label>
+                        <input id="matrícula"  type="number">
+                    </div>
+
+                    <div>
+                        <label for="telefone">Telefone:</label>
+                        <input id="telefone"  type="tel" pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}">
+                    </div>
+
+                    <div>
+                        <label for="cep">CEP:</label>
+                        <input id="cep"  type="tel" pattern="[0-9]{5}-[0-9]{3}">
+                    </div>
+
+                    <div>
+                        <label for="Endereço">Endereço:</label>
+                        <input id="Endereço"  type="text">
+                    </div>
+
+                    <div>
+                        <label for="Número">Número:</label>
+                        <input id="Número"  type="text">
+                    </div>
+
+                    <div>
+                        <legend>Gênero:</legend>
+                            <label>
+                                 <input type="radio" name="gender">Masculino</input>
+                                 <input type="radio" name="gender">Feminino</input>
+                                 <input type="radio" name="gender">Prefiro não informar</input>
+                            </label>
+                            
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Informações sobre o Curso</legend>
+                       <div>
+                            
+                           <label for="select">Curso:</label>
+                             <select id="Curso">
+                                <optgroup label="Cursos Técnicos">
+                                    <option>Tecnico em Informática</option>
+                                    <option>Tecnico de Enfermagem</option>
+                                    <option>Tecnico em Agropecuária</option>
+                                    <option>Tecnico em Redes</option>
+                                </optgroup>
+
+                                <optgroup label="Cursos Superiores">
+                                    <option>Sistema da Informação</option>
+                                    <option>Engenharia de Software</option>
+                                    <option>Tecnologia da Informação</option>
+                                </optgroup>
+                            </select>
+                       </div>
+                       
+                       <div>   
+                            
+                            <label for="select">Turno:</label>
+                               <select id="Turno">
+                                  <optgroup label="Turnos">
+                                      <option>Matutino</option>
+                                      <option>Vespertino</option>
+                                      <option>Noturno</option>
+                                  </optgroup>
+                            </select>    
+                       </div>
+
+                       <div>
+                          <label for="Turma">Turma:</label>
+                          <input id="Turma"  type="number">
+                       </div>
+
+                       <div>
+                        <label for="time">Horário da aula:</label>
+                        <input id="time"  type="time">
+                       </div>
+
+                       <div>
+                        <label for="date">Data:</label>
+                        <input id="date"  type="date">
+                       </div>
+
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Hobbies</legend>
+                       <div>
+                           <label for="aceitar">Ler:</label>
+                           <input id="aceitar"  type="checkbox">
+                       </div>
+
+                       <div>
+                        <label for="aceitar">jogar bola:</label>
+                        <input id="aceitar"  type="checkbox">
+                    </div>
+
+                    <div>
+                        <label for="aceitar">Estudar:</label>
+                        <input id="aceitar"  type="checkbox">
+                    </div>
+
+                    <div>
+                        <label for="aceitar">Viajar:</label>
+                        <input id="aceitar"  type="checkbox">
+                    </div>
+                </fieldset>
+
+                <div>
+                    <input id="suubmit" type="submit" value="Encaminhar">
+                </div>
+            </form>
+        </section>
+        
+    </body>
+
+</Html>
